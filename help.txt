@@ -1,0 +1,4 @@
+git add <files> ---- Stage changes for next commit
+git commit "comment" ---- Create commit that stage includes all staged chages
+git checkout <id> - Temporary move to another commit
+git checkout <new branch> - Create and temporary move to another branch 
