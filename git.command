@@ -1,4 +1,4 @@
-# AUTOMATED GIT UPDATE
+# AUTOMATED GIT PUSH FOR ALL UPDATE FILES
 #! /bin/bash
 
 git add .
@@ -10,6 +10,4 @@ echo $QUESTION
 read SENTENCE
 
 git commit -m "$SENTENCE"
-
 git push
-
