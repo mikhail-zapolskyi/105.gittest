@@ -5,6 +5,9 @@ jobs:
           runs-on: ubuntu-latest
           steps:
                - name: Print Greeting
-                 run: echo "Hello World"
-               - name: "Last Sentance"
-                 run: echo 'Buy Now'
+                 run: |
+                      QUESTION="What is your name?"
+                      NAME
+                      echo $QUESTION
+                      read $NAME;
+                      echo "Hello $NAME"
