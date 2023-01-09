@@ -11,3 +11,7 @@ git log ---- Output chronologically ordered list of commits
 git status ---- Get the current status of repo
 
 git remote get-url origin ---- get github url of repo
+
+workflow -> trigger -> job -> step
+
+${{ expression }} ---- action expression 
