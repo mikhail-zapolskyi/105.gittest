@@ -11,5 +11,5 @@ read SENTENCE
 
 git commit -m '$SENTENCE'
 
-
+git push
 
