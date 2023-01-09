@@ -1,4 +1,13 @@
+git init - Intitate repo
 git add <files> ---- Stage changes for next commit
-git commit "comment" ---- Create commit that stage includes all staged chages
-git checkout <id> - Temporary move to another commit
-git checkout <new branch> - Create and temporary move to another branch 
+git commit -m "comment" ---- Create commit that stage includes all staged chages
+git checkout <id> ---- Temporary move to another commit
+gti branch <branch_name> ---- create branch
+git merge <name> - merge the branches
+git checkout <new branch> ---- Temporary move to another branch 
+git revert <id> ---- Revert changes of commit by creating a new commit
+git reset --hard <id> ---- Undo all change by deleting all commits since <id>
+git log ---- Output chronologically ordered list of commits
+git status ---- Get the current status of repo
+
+git remote get-url origin ---- get github url of repo
