@@ -6,8 +6,7 @@ jobs:
           steps:
                - name: Print Greeting
                  run: |
-                      QUESTION="What is your name?"
-                      NAME
-                      echo $QUESTION
-                      read $NAME;
+                      NAME="Misha"
                       echo "Hello $NAME"
+                      PLATFORM="GITHUB"
+                      echo "Welcome Back to $PLATFORM"
