@@ -1,4 +1,4 @@
-import './HelpBox.css';
+import "./HelpBox.css";
 
 function HelpBox({ title, text }) {
   return (
