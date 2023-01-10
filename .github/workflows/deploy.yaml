@@ -1,0 +1,14 @@
+name: Website deploy
+on:
+  push:
+    branches:
+      - main
+jobs:
+  deploy:
+    runs-on:
+    steps:
+      - name: Deploy
+        run: echo "Website Deploying"
+
+
+
