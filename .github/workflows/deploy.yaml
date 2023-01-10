@@ -20,7 +20,12 @@ jobs:
           path: dist
   deploy:
     runs-on: ubuntu-latest
+    needs: build
     steps:
+      - name: Get Build Artifacts
+        uses: actions/download-artifacts@v3
+        with:
+          name: dist-files
       - name: Deploy
         run: echo "Website Deploying"
 
